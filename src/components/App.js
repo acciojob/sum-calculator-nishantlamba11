@@ -29,7 +29,7 @@ const App = () => {
   
   return (
      <div style={{ padding: '2rem', maxWidth: '400px', margin: 'auto' }}>
-      <h2>Sum Calculator</h2>
+      <h1>Sum Calculator</h1>
       <input
         type="number"
         value={inputValue}
@@ -39,12 +39,12 @@ const App = () => {
       <button onClick={handleAddNumber} style={{ marginLeft: '1rem' }}>
         Add
       </button>
-      <div style={{ marginTop: '1rem' }}>
+      <p style={{ marginTop: '1rem' }}>
         <strong>Numbers:</strong> {numbers.join(', ')}
-      </div>
-      <div style={{ marginTop: '1rem' }}>
+      </p>
+      <p style={{ marginTop: '1rem' }}>
         <strong>Sum:</strong> {sum}
-      </div>
+      </p>
     </div>
   )
 }
